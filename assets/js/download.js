@@ -12,7 +12,7 @@ function downloadPDF() {
   const element  = document.getElementById('cover-page');
   const filename = (window.DESIGN && window.DESIGN.pdfFilename)
     ? window.DESIGN.pdfFilename
-    : 'CovGen (https://কভার.পাতা.বাংলা).pdf';
+    : 'CovGen (কভার.পাতা.বাংলা).pdf';
 
   const btn = document.querySelector('.btn-download');
   if (btn) { btn.textContent = 'Generating…'; btn.disabled = true; }
