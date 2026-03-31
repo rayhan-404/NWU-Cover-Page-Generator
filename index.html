@@ -2231,13 +2231,14 @@
                 if (chip) { chip.style.animation = 'chipBounce .5s var(--spring) both'; }
             }, 280);
         }, 650);
+
+        window.addEventListener("pageshow", function (event) {
+  if (event.persisted) {
+    location.reload();
+  }
+});
     </script>
 
-    <script>
-        if (history.length === 1) {
-  history.pushState({ page: "home" }, "", "/");
-        }
-    </script>
 </body>
 
 </html>
