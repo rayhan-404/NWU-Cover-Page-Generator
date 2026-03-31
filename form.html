@@ -1242,6 +1242,12 @@
 
       return actions + share;
     }
+
+    history.pushState({}, "", "");
+
+window.addEventListener("popstate", function () {
+  window.location.replace("/");
+});
   </script>
 </body>
 </html>
