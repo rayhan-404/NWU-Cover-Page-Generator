@@ -11,7 +11,7 @@ window.DESIGN = {
   name:      'North Western University',
   shortName: 'NWU Cover',
   formTitle: 'NWU Cover Page Generator',
-  pdfFilename: 'NWU-Cover-Page (rayhan.iam.bd).pdf',
+  pdfFilename: 'CovGen (কভার.পাতা.বাংলা).pdf',
 
   /* ── Fields for share link ────────────── */
   shareFields: [
