@@ -11,7 +11,7 @@ window.DESIGN = {
   name:      'North Western University',
   shortName: 'NWU Cover',
   formTitle: 'NWU ',
-  pdfFilename: 'CovGen (https://কভার.পাতা.বাংলা).pdf',
+  pdfFilename: 'Cover-1 ᴮʸ 𝓜 𝓡𝓪𝔂𝓱𝓪𝓷 (কভার.পাতা.বাংলা).pdf',
 
   /* ── Fields for share link ────────────── */
   shareFields: [
